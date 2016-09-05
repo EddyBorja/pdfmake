@@ -97,6 +97,7 @@ PdfPrinter.prototype.createPdfKitDocument = function(docDefinition, options) {
 	// pdf kit maintains the uppercase fieldnames from pdf spec
 	// to keep the pdfmake api consistent, the info field are defined lowercase
 	if(docDefinition.info){
+        console.log("PDF Info is ", info);
 		var info = docDefinition.info;
 		// check for falsey an set null, so that pdfkit always get either null or value
 		this.pdfKitDoc.info.Title = docDefinition.info.title ? docDefinition.info.title : null;
