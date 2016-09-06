@@ -52,7 +52,7 @@
   "author": "Bartek Pampuch <bartosz.pampuch@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bpampuch/pdfmake/issues"
+    "url": "https://github.com/eddyborja/pdfmake/issues"
   },
   "homepage": "https://bpampuch.github.io/pdfmake",
   "config": {
